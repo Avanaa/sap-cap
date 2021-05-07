@@ -34,7 +34,7 @@ annotate MyService.Comments with @(
     UI : {
         LineItem : 
         [
-            {Value : author},
+            {Value : author.name},
             {Value : content}
         ]
     });
