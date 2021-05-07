@@ -6,11 +6,8 @@
   "license": "UNLICENSED",
   "private": true,
   "dependencies": {
-    "@sap/cds": "3.20.0",
+    "@sap/cds": "^5",
     "express": "^4"
-  },
-  "devDependencies": {
-    "sqlite3": "^5.0.2"
   },
   "scripts": {
     "start": "cds run"
@@ -38,6 +35,20 @@
     "rules": {
       "no-console": "off",
       "require-atomic-updates": "off"
+    }
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.2"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "model": "*",
+        "credentials": {
+          "database": "db/my-blog.db"
+        }
+      }
     }
   }
 }
