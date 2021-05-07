@@ -1,7 +1,0 @@
-ID;author_ID;post_ID;content;
-1;1;1;Comentario no post 1;
-2;1;1;Comentario 2 no post 1;
-3;2;2;Nesse post 2 só tem 1 comentário;
-4;2;3;Comentario no post 3;
-5;2;3;Outro comentario no post 3;
-6;2;4;Comentario solitário no post 4;
